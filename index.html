@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <h1>Código secreto</h1>
+    <main class="main">
+
+        <section>
+            <label for="input_text">Ingrese sóla letras minúsculas y sin acentos</label>
+            <input class="text-input" type="text" name="input_text" id="input_text" placeholder="Ingrese el texto aquí">
+            <button type="submit" id="button-encriptar">Encriptar!</button>
+            <button type="submit" id="button-desencriptar">Desencriptar!</button> 
+        </section>
+
+        <section>
+            <label for="input-mensaje">Mensaje encriptado:</label>
+            <input class="text-input" type="text" name="input-mensaje" id="input-mensaje">
+            <input type="submit" value="Copiar">
+        </section>
+        
+    </main>
+
+    <script src="js/encriptar.js"></script>
+    
+</body>
+</html>
