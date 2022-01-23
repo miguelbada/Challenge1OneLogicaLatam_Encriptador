@@ -8,16 +8,6 @@ Solo letras minusculas
 No se permite acentuación de palabras 
 */
 
-/* Reglas de desencriptación: 
-"enter" es convertido para "e" 
-"imes" es convertido para "i"
-"ai" es convertido para "a"
-"ober" es convertido para "o"
-"ufat" es convertido para "u"
-Solo letras minusculas
-No se permite acentuación de palabras   
-*/
-
 function convertir(letra) {
     var codigo = letra
 
