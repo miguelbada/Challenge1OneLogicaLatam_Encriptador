@@ -9,11 +9,11 @@ El resultado de la operación se muestra en otro campo donde también se puede c
 
 Las "llaves" de encriptación son las siguientes:
 
-La letra "a" es convertida para "ai"
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+- La letra "a" es convertida para "ai"
+- La letra "e" es convertida para "enter"
+- La letra "i" es convertida para "imes"
+- La letra "o" es convertida para "ober"
+- La letra "u" es convertida para "ufat"
 
 ### Página web del proyecto:
 
