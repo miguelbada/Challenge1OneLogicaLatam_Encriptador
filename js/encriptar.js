@@ -52,7 +52,7 @@ var buttonEncriptar = document.querySelector("#button-encriptar");
 
 buttonEncriptar.addEventListener("click", function() {
 
-    var textoAEncriptar = document.querySelector("#input_text").value;
+    var textoAEncriptar = document.querySelector("#input-text").value;
     var textoAEnviar = document.querySelector("#input-mensaje");
     var textoEncriptado = encriptar(textoAEncriptar);
 

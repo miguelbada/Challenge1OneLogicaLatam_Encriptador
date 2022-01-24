@@ -18,3 +18,15 @@ function desencriptar(textoEncriptado) {
 
     return textoDesencriptado;
 }
+
+
+var buttonDesencriptar = document.querySelector("#button-desencriptar");
+
+buttonDesencriptar.addEventListener("click", function(event) {
+    event.preventDefault();
+    var textoADesencriptar = document.querySelector("#input-text").value;
+    var textoDesencriptado = desencriptar(textoADesencriptar);
+    var textoAEnviar = document.querySelector("#input-mensaje");
+
+    textoAEnviar.value = textoDesencriptado;
+});
