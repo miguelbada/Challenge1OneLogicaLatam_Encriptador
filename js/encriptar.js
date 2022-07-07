@@ -9,7 +9,7 @@ No se permite acentuación de palabras
 */
 
 function convertir(letra) {
-    var codigo = letra
+    let codigo = letra
 
     switch(letra) {
         case "a":
@@ -38,9 +38,9 @@ function convertir(letra) {
 
 
 function encriptar(texto) {
-    var textoEncriptado = ""; 
+    let textoEncriptado = ""; 
     
-    for(var i = 0; i < texto.length; i++) {
+    for(let i = 0; i < texto.length; i++) {
         textoEncriptado += convertir(texto[i]);
     }
 
@@ -48,13 +48,13 @@ function encriptar(texto) {
 }
 
 
-var buttonEncriptar = document.querySelector("#button-encriptar");
+let buttonEncriptar = document.querySelector("#button-encriptar");
 
 buttonEncriptar.addEventListener("click", function() {
 
-    var textoAEncriptar = document.querySelector("#input-text").value;
-    var textoAEnviar = document.querySelector("#input-mensaje");
-    var textoEncriptado = encriptar(textoAEncriptar);
+    let textoAEncriptar = document.querySelector("#input-text").value;
+    let textoAEnviar = document.querySelector("#input-mensaje");
+    let textoEncriptado = encriptar(textoAEncriptar);
 
     textoAEnviar.value = textoEncriptado;
 });

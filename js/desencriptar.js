@@ -9,9 +9,9 @@ No se permite acentuación de palabras
 */
 
 function desencriptar(textoEncriptado) {
-    var textoDesencriptado = "";
+    let textoDesencriptado = "";
     
-    for(var i = 0; i < textoEncriptado.length; i++) {
+    for(let i = 0; i < textoEncriptado.length; i++) {
         textoDesencriptado+= textoEncriptado[i];
         i += convertir(textoEncriptado[i]).length - 1;
     }
@@ -20,13 +20,13 @@ function desencriptar(textoEncriptado) {
 }
 
 
-var buttonDesencriptar = document.querySelector("#button-desencriptar");
+let buttonDesencriptar = document.querySelector("#button-desencriptar");
 
 buttonDesencriptar.addEventListener("click", function(event) {
     event.preventDefault();
-    var textoADesencriptar = document.querySelector("#input-text").value;
-    var textoDesencriptado = desencriptar(textoADesencriptar);
-    var textoAEnviar = document.querySelector("#input-mensaje");
+    let textoADesencriptar = document.querySelector("#input-text").value;
+    let textoDesencriptado = desencriptar(textoADesencriptar);
+    let textoAEnviar = document.querySelector("#input-mensaje");
 
     textoAEnviar.value = textoDesencriptado;
 });
