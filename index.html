@@ -18,7 +18,7 @@
         <div class="container">
             <section>
                 <label for="input_text">Ingrese sóla letras minúsculas y sin acentos</label>
-                <input class="text-input" type="text" name="input-text" id="input-text" placeholder="Ingrese el texto aquí" onkeypress="return event.charCode == 241 || event.charCode == 32 || (event.charCode >= 97 && event.charCode <= 122)">
+                <input class="text-input" type="text" name="input-text" id="input-text" placeholder="Ingrese el texto aquí">
                 <button type="submit" id="button-encriptar">Encriptar!</button>
                 <button type="submit" id="button-desencriptar">Desencriptar!</button> 
             </section>
@@ -31,10 +31,10 @@
         </div>
     </main>
 
-    <script src="js/encriptar.js"></script>
-    <script src="js/desencriptar.js"></script>
-    <script src="js/copiar.js"></script>
-    <script src="js/validacion.js"></script>
+    <script type="module" src="js/encriptar.js"></script>
+    <script type="module" src="js/desencriptar.js"></script>
+    <script type="module" src="js/copiar.js"></script>
+    <script type="module" src="js/validacion.js"></script>
     
 </body>
 </html>

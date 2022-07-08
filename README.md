@@ -18,3 +18,6 @@ Las "llaves" de encriptación son las siguientes:
 ### Página web del proyecto:
 
 ### https://miguelbada.github.io/Challenge1OneLogicaLatam_Encriptador/
+
+
+![Encriptador](img/encriptador.png)
